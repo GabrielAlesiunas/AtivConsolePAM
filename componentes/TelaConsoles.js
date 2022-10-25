@@ -1,8 +1,8 @@
 import React from 'react';
 import { ScrollView, View, Image, Text } from 'react-native';
 
-import imgConsole1 from '../../assets/console-1.png';
-import imgConsole2 from '../../assets/console-2.png';
+import imgConsole1 from '../assets/console-1.png';
+import imgConsole2 from '../assets/console-2.png';
 import estilos from './estilos';
 
 export default function TelaConsole () {
@@ -22,5 +22,5 @@ export default function TelaConsole () {
         <Text style={ estilos.paragrafo }>O Series X é pra quem quer poder absoluto. O console mais poderoso do mercado, excelência em gráficos e performance.</Text>
       </View>
     </ScrollView>
-  )
+  );
 }

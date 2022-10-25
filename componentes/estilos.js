@@ -15,7 +15,12 @@ const estilos = StyleSheet.create({
   card: {
     width: 320,
     height: 180,
-    marginBottom: 10,
+    flexDirection: "row",
+    marginBottom: 20,
+    paddingVertical: 10,
+    paddingHorizontal: 10,
+    backgroundColor: "#008000",
+    borderRadius: 10,
   },
 
   container: {
@@ -40,14 +45,52 @@ const estilos = StyleSheet.create({
     marginBottom: 5,
   },
 
-  descricao: {
+  cardImg:{
+    width: 170,
+    height: 150,
+    marginBottom: 10,
+  },
 
+  cardTexto: {
+    fontSize: 21,
+    fontWeight: "bold",
+    color: 'white',
+    alignItems: 'center',
+  },
+
+  descricao: {
+    color: "#FFFFFF",
+    textAlign: "center",
+  },
+
+  paragrafo: {
+    color: "#FFFFFF",
+  },
+
+  cardTitulo: {
+    backgroundColor: "#000000",
+    alignItems: 'center',
+    color: "#FFFFFF",
+    fontSize: 18,
+    opacity: 0.5,
+    width: 1000,
+    height: 28
+  },
+
+  subtitulo: {
+    color: "#FFFFFF",
+    fontSize: 20,
+    fontFamily: "tahoma"
+  },
+
+  img10:{
+    width: 360,
+    height: 250,
+    borderRadius: 5
   },
   
 
-
+  
 });
 
-
-
-export default estilo;
+export default estilos;

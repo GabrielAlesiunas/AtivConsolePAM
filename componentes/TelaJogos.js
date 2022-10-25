@@ -1,9 +1,9 @@
 import React from 'react';
 import { ScrollView, View, Text, ImageBackground } from 'react-native';
 
-import imgJogoCyber from '../../assets/jogo-2.png';
-import imgJogoForza from '../../assets/jogo-3.png';
-import imgJogoHalo from '../../assets/jogo-4.png';
+import imgJogoCyber from '../assets/jogo-2.png';
+import imgJogoForza from '../assets/jogo-3.png';
+import imgJogoHalo from '../assets/jogo-4.png';
 import estilos from './estilos';
 
 
@@ -39,5 +39,5 @@ export default function TelaJogos () {
         </View>
       </View>
     </ScrollView>
-  )
+  );
 }
