@@ -28,13 +28,28 @@ const estilos = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     backgroundColor: '#2c2e2d',
+    padding: 20,
+  },
+
+  box: {
+    flex: 1,
+    alignItems: "center",
+    justifyContent: "center",
+    backgroundColor: '#2c2e2d',
     padding: 15,
+
   },
 
   img: {
     width: 80,
     height: 80,
     borderRadius: 100,
+    marginBottom: 10,
+  },
+
+  img2: {
+    width: 250,
+    height: 230,
     marginBottom: 10,
   },
 
@@ -74,19 +89,35 @@ const estilos = StyleSheet.create({
     fontSize: 18,
     opacity: 0.5,
     width: 1000,
-    height: 28
+    height: 28,
+    fontWeight: "bold",
   },
 
   subtitulo: {
     color: "#FFFFFF",
     fontSize: 20,
-    fontFamily: "tahoma"
+    fontFamily: "tahoma",
+    fontWeight: 'bold',
   },
 
   img10:{
     width: 360,
     height: 250,
     borderRadius: 5
+  },
+
+  subtitulo2: {
+    color: "#000000",
+    fontSize: 20,
+    fontFamily: "tahoma",
+    fontWeight: 'bold',
+  },
+
+  cardconsole: {
+    alignContent: "center",
+    justifyContent: "center",
+    backgroundColor: '#2c2e2d',
+    padding: 15,
   },
   
 

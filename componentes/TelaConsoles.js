@@ -7,20 +7,20 @@ import estilos from './estilos';
 
 export default function TelaConsole () {
   return (
-    <ScrollView style={ estilos.container}>
-      <View style={ estilos.box }>
-        <Image source={ imgConsole1 } style={ estilos.img } />
+    <ScrollView>
+      <View>
+        <Image source={ imgConsole1 } style={ estilos.img2 } />
         <Text style={ estilos.titulo }>XBOX SERIES S</Text>
-        <Text style={ estilos.subtitulo }>Desempenho de última geração no menor Xbox de todos os tempos.</Text>
-        <Text style={ estilos.paragrafo }>O Series S é pra quem busca jogos de nova geração gastando pouco. É o console mais barato da nova geração. Ele é o equilíbrio entre gráfico e performance</Text>
+        <Text style={ estilos.subtitulo2 }>Desempenho de última geração no menor Xbox de todos os tempos.</Text>
+        <Text style={ estilos.paragrafo2 }>O Series S é pra quem busca jogos de nova geração gastando pouco. É o console mais barato da nova geração. Ele é o equilíbrio entre gráfico e performance</Text>
       </View>
 
-      <View style={ estilos.box }>
-        <Image source={ imgConsole2 } style={ estilos.img } />
+      <View>
+      <Image source={ imgConsole2 } style={ estilos.img2 } />
         <Text style={ estilos.titulo }>XBOX SERIES X</Text>
-        <Text style={ estilos.subtitulo }>O Xbox mais rápido e poderoso de todos os tempos.</Text>
-        <Text style={ estilos.paragrafo }>O Series X é pra quem quer poder absoluto. O console mais poderoso do mercado, excelência em gráficos e performance.</Text>
+        <Text style={ estilos.subtitulo2 }>O Xbox mais rápido e poderoso de todos os tempos.</Text>
+        <Text style={ estilos.paragrafo2 }>O Series X é pra quem quer poder absoluto. O console mais poderoso do mercado, excelência em gráficos e performance.</Text>
       </View>
     </ScrollView>
-  );
+);
 }
